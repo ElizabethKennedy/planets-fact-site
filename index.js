@@ -134,8 +134,8 @@ function switchContent(content) {
             })
             if(ele.classList.contains('planet-img')) { 
                 ele.src = planetData[currentIndex].images.planet
-                ele.classList.remove(ele.classList[2]) //remove the current planet name class with sizing rules
-                ele.classList.add(planetData[currentIndex].name.toLowerCase()) //add the new planet name class. The css styles aren't captialized.
+                ele.classList.remove(ele.classList[2]) 
+                ele.classList.add(planetData[currentIndex].name.toLowerCase()) .
             }
             planetGeoImg.classList.add('hide')
             if(ele.classList.contains('planet__paragraph')) ele.innerHTML = planetData[currentIndex].overview.content

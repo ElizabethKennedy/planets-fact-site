@@ -339,7 +339,7 @@ html {
   padding: 0 2rem;
   padding-top: 2.0625rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
+};
 
 @media (min-width: 610px) and (max-width: 1023px) {
   .header .planet__links.hide-for-mobile {
