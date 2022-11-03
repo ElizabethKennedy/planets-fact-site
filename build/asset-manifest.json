@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ElizabethKennedy/planets-fact-site/static/css/main.073c9b0a.css",
+    "main.js": "/ElizabethKennedy/planets-fact-site/static/js/main.81f11166.js",
+    "static/js/787.6e51ec5c.chunk.js": "/ElizabethKennedy/planets-fact-site/static/js/787.6e51ec5c.chunk.js",
+    "static/media/logo.svg": "/ElizabethKennedy/planets-fact-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ElizabethKennedy/planets-fact-site/index.html",
+    "main.073c9b0a.css.map": "/ElizabethKennedy/planets-fact-site/static/css/main.073c9b0a.css.map",
+    "main.81f11166.js.map": "/ElizabethKennedy/planets-fact-site/static/js/main.81f11166.js.map",
+    "787.6e51ec5c.chunk.js.map": "/ElizabethKennedy/planets-fact-site/static/js/787.6e51ec5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.81f11166.js"
+  ]
+}
