@@ -2,7 +2,7 @@
   "name": "planets-fact-site",
   "version": "1.0.0",
   "description": "A responsive website that has facts about the planets in our solar system.",
-  "main": "script.js",
+  "main": "./main.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

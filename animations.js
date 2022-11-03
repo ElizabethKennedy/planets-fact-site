@@ -1,15 +1,16 @@
+/* eslint-disable no-undef */
 // animation elements
-const header = document.querySelector(".header");
-const shootingstars = document.querySelector('.shootingstars');
-const background = document.querySelector('.background')
-const backgroundGroup = background.childNodes[0]
-let circleArray = []
-
 import { currentPlanet } from "./globals.js";
 import { previousPlanet } from "./globals.js";
 import { planetImg } from "./globals.js";
 import { standupTextWrapper } from "./globals.js";
 import { statValues } from "./globals.js";
+
+const header = document.querySelector(".header");
+const shootingstars = document.querySelector('.shootingstars');
+const background = document.querySelector('.background')
+const backgroundGroup = background.childNodes[0]
+let circleArray = []
 
 // get current viewport width
 function getViewportX() {
@@ -62,6 +63,7 @@ function shuffleCircles() {
 window.addEventListener('resize', shuffleCircles); // move around the stars to fit the screen size everytime the window resizes
 
 // make the background stars twinkle
+// eslint-disable-next-line no-undef
 anime({
     targets: [".star"],
     opacity: [

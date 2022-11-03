@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import anime from 'animejs.lib/anime.es.js'
 
 function App() {
   return (
