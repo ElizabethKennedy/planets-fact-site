@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 // animation elements
-import { currentPlanet } from "./globals.js";
-import { previousPlanet } from "./globals.js";
-import { planetImg } from "./globals.js";
-import { standupTextWrapper } from "./globals.js";
-import { statValues } from "./globals.js";
+import { currentPlanet } from "./src/globals.js";
+import { previousPlanet } from "./src/globals.js";
+import { planetImg } from "./src/globals.js";
+import { standupTextWrapper } from "./src/globals.js";
+import { statValues } from "./src/globals.js";
 
 const header = document.querySelector(".header");
 const shootingstars = document.querySelector('.shootingstars');
@@ -16,7 +17,7 @@ let circleArray = []
 function getViewportX() {
     return Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
 }
-  
+
 // get current viewport height
 function getViewportY() {
     return Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
@@ -138,7 +139,7 @@ export function standupLettersAnim(textWrapper, targetClass) {
       delay: (el, i) => 50 * i,
     })
   }
-  
+
   export function roundNumbersAnim(target) {
     anime({
       targets: target,
@@ -158,7 +159,7 @@ export function standupLettersAnim(textWrapper, targetClass) {
       });
     }
   }
-  
+
   // Used for the mobile menu when it opens
   export function staggerLeftAnim(target) {
     anime({
@@ -167,7 +168,7 @@ export function standupLettersAnim(textWrapper, targetClass) {
       delay: anime.stagger(50), // increase delay by 100ms for each elements.
     });
   }
-  
+
   export let flyInAnimComplete = false // prevent other animations from interrupting
   export function flyInAnim(target) {
     flyInAnimComplete = false
@@ -192,7 +193,7 @@ export function standupLettersAnim(textWrapper, targetClass) {
       }
     });
   }
-  
+
   export function flyOutAnim(target) {
     flyInAnimComplete = false
     anime({

@@ -1,7 +1,9 @@
 import logo from './logo.svg';
+import  * as React from 'react';
 import './App.css';
+
 // eslint-disable-next-line no-unused-vars
-import anime from './animejs.lib/anime.es.js'
+const title = 'React';
 
 function App() {
   return (

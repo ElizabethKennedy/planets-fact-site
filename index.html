@@ -3,29 +3,26 @@
  <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
    <meta name="msapplication-TileColor" content="#da532c">
    <meta name="theme-color" content="#ffffff">
-   <link rel="stylesheet" href="./css/style.css">
-   <link rel="stylesheet" href="./scss/style.scss">
-   <!-- Fonts -->
+   <link rel="stylesheet" href="./dist/css/style.css"/>
+   <link rel="stylesheet" href="./scss/style.scss"/>
+
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Spartan:wght@400;700&display=swap" rel="stylesheet">
-   <script src="./node_modules/animejs/lib/anime.min.js"></script>
-    <script type='module' src='./globals.js'></script>
+   <script src="./lib/anime.min.js"></script>
+    <script type='module' src='./src/globals.js'></script>
     <script type='module' src='./animations.js'></script>
-    <script type='module' src='./main.js'></script>
-   <title>Elizabeth Kennedy | Planets fact site</title>
+    <script type='module' src='./index.js'></script>
+
+   <title>Elizabeth Kennedy | Planets Fact Site</title>
  </head>
  <body>
-
   <div class="sky">
     <svg class='background' version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" width="1532" height="1291"><g fill="#FFF" fill-rule="evenodd" opacity=".202"></g></svg>
   </div>
-
   <div class="shootingstars"></div>
-
   <header class='header'>
 
 
@@ -54,7 +51,7 @@
           <li class="toggle-item last flex flex-jc-sb flex-ai-c"><a class='planet-link neptune 7' href="javascript:void(0);"><span class='dot neptune'></span>Neptune</a><img class='chevron' src="assets/icon-chevron.png" alt=""></li>
           <li class="toggle-item blank-bottom"></li> <!-- COVERS THE CONTENT UNDER THE MENU -->
         </ul>
-  
+
         <!-- MOBILE CONTENT MENU -->
         <nav class='mobile-only'>
           <ul class='menu__content flex flex-ai-c flex-jc-sb'>
@@ -63,7 +60,7 @@
             <li class='content-link geology mobile earth'><a href="javascript:void(0);">Surface</a></li>
           </ul>
         </nav>
-  
+
         <!-- TABLET AND DESKTOP PLANET LINKS -->
         <nav class="planet__links grid grid-ai-c hide-for-mobile">
           <h2 class='logo'>The Planets</h2>
@@ -77,11 +74,11 @@
           <a class='planet-link neptune 7 hover' href="javascript:void(0);">Neptune</a>
         </nav>
     </header>
-  
-    
+
+
     <main class='main'>
       <div class="planet__img__wrapper flex flex-ai-c flex-jc-c"><img class='planet-geo-img hide' src="assets/geology-earth.png" alt="A closeup view of the surface of the planet"><img class='change-content planet-img earth' src="./assets/planet-earth.png" alt="A planet"></div>
-      <section class='planet__section'> 
+      <section class='planet__section'>
         <h1 class='planet__title'>
           <span class="animText-wrapper">
             <span class="change-planet animLetters">Earth</span>
@@ -90,11 +87,11 @@
         <p class='change-content planet__paragraph'>
           Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.
         </p>
-  
+
         <p class='planet__citation'>
           Source : <a class='change-content source' href="https://en.wikipedia.org/wiki/Earth_(planet)" target='_blank'>Wikipedia <img src="assets/icon-source.png" alt="Citation icon"></a>
         </p>
-  
+
         <!-- TABLET AND DESKTOP CONTENT MENU -->
         <nav class='menu__content__wrapper hide-for-mobile earth'>
           <ol class='menu__content flex flex-ai-c flex-jc-se'>
@@ -105,31 +102,30 @@
         </nav>
       </section>
     </main>
-  
+
     <footer>
       <div class="stats">
         <div class="stat stats__rotation flex flex-ai-c flex-jc-sb">
           <h1 class='stat__name'>Rotation Time</h1>
-          <p class='change-planet rotation stat__value'>0.99 Days</p> 
+          <p class='change-planet rotation stat__value'>0.99 Days</p>
         </div>
-  
+
         <div class="stat stats__revolution flex flex-ai-c flex-jc-sb">
           <h1 class='stat__name'>Revolution Time</h1>
-          <p class='change-planet revolution stat__value'>365.26 Days</p> 
+          <p class='change-planet revolution stat__value'>365.26 Days</p>
         </div>
-  
+
         <div class="stat stats__radius flex flex-ai-c flex-jc-sb">
           <h1 class='stat__name'>Radius</h1>
-          <p class='change-planet radius stat__value'>6,371 KM</p> 
+          <p class='change-planet radius stat__value'>6,371 KM</p>
         </div>
-  
+
         <div class="stat stats__temp flex flex-ai-c flex-jc-sb">
           <h1 class='stat__name'>Average Temp.</h1>
-          <p class='change-planet temperature stat__value'>16°c</p> 
+          <p class='change-planet temperature stat__value'>16°c</p>
         </div>
       </div>
     </footer>
   </body>
   </html>
 
-   

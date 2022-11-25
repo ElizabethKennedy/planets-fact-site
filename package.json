@@ -1,54 +1,54 @@
 {
-  "name": "planets-fact-site",
-  "version": "1.0.0",
-  "description": "A responsive website that has facts about the planets in our solar system.",
-  "main": "./main.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "eject": "react-scripts eject"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ElizabethKennedy/planets-fact-site.git"
-  },
-  "keywords": [
-    "planets",
-    "frontendmentor"
-  ],
-  "author": "Elizabeth Kennedy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ElizabethKennedy/planets-fact-site/issues"
-  },
-  "homepage": "https://github.com/ElizabethKennedy/planets-fact-site#readme",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "animejs": "^3.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "planets-fact-site",
+	"version": "1.0.1",
+	"description": "A responsive website that has facts about the planets in our solar system.",
+	"main": "./index.js",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"eject": "react-scripts eject"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ElizabethKennedy/planets-fact-site.git"
+	},
+	"keywords": [
+		"planets",
+		"frontendmentor"
+	],
+	"author": "Elizabeth Kennedy",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ElizabethKennedy/planets-fact-site/issues"
+	},
+	"homepage": "https://github.com/ElizabethKennedy/planets-fact-site#readme",
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"animejs": "^3.2.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-scripts": "5.0.1",
+		"web-vitals": "^2.1.4"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }
