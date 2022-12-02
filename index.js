@@ -1,17 +1,17 @@
 // the image that appears when 'surface geology' content is active
 
-import { planetData } from "../globals.js"
-import { currentPlanet } from "../globals.js"
-import { previousPlanet } from "../globals.js"
-import { planetImg } from "../globals.js"
-import { statValues } from "../globals.js"
-import { standupTextWrapper } from "../globals.js"
-import { standupLettersAnim } from "../animations.js"
-import { flyOutAnim } from "../animations.js"
-import { scaleInAnim } from "../animations.js"
-import { roundNumbersAnim } from "../animations.js"
-import { flyInAnimComplete } from "../animations.js"
-import { staggerLeftAnim } from "../animations.js"
+import { planetData } from "./public/globals.js"
+import { currentPlanet } from "./public/globals.js"
+import { previousPlanet } from "./public/globals.js"
+import { planetImg } from "./public/globals.js"
+import { statValues } from "./public/globals.js"
+import { standupTextWrapper } from "./public/globals.js"
+import { standupLettersAnim } from "./animations.js"
+import { flyOutAnim } from "./animations.js"
+import { scaleInAnim } from "./animations.js"
+import { roundNumbersAnim } from "./animations.js"
+import { flyInAnimComplete } from "./animations.js"
+import { staggerLeftAnim } from "./animations.js"
 const toggle = document.querySelector('.toggle') //mobile hamburger button
 const toggleItems = document.querySelectorAll('.toggle-item') //mobile menu planet anchor links
 const body = document.querySelector('body') // this is to disable scrolling when the mobile menu is open

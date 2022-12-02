@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 // animation elements
-import { currentPlanet } from "./src/globals.js";
-import { previousPlanet } from "./src/globals.js";
-import { planetImg } from "./src/globals.js";
-import { standupTextWrapper } from "./src/globals.js";
-import { statValues } from "./src/globals.js";
+import { currentPlanet } from "./public/globals.js";
+import { previousPlanet } from "./public/globals.js";
+import { planetImg } from "./public/globals.js";
+import { standupTextWrapper } from "./public/globals.js";
+import { statValues } from "./public/globals.js";
 
 const header = document.querySelector(".header");
 const shootingstars = document.querySelector('.shootingstars');
@@ -86,7 +86,18 @@ anime({
 //  GENERATE SHOOTING STARS ////
 ////////////////////////////////
 
-function createWish(quantity) {
+function createWish(quantity){
+ /* randomRadius = () => {
+    return Math.random() * 0.7 + 0.6;
+  };
+  getRandomX = () => {
+    return Math.floor(Math.random() * Math.floor(window.innerWidth)).toString();
+  };
+  getRandomY = () => {
+    return Math.floor(
+      Math.random() * Math.floor(window.innerHeight)
+    ).toString();
+  };*/
     for(let i = 0; i < quantity; i++) {
         const wish = document.createElement("div");
         wish.classList.add('wish')
